@@ -1,0 +1,237 @@
+*{ 
+	text-decoration : none;
+	margin: 0;
+	padding: 0;	
+}
+
+.cadre{
+	border:3px solid orange;
+	padding-bottom:10px;
+	/* margin-bottom:10px; */
+	width: 40%;
+	margin : 20px auto;
+	border-radius:20px;
+	}
+.cadre2{
+	border:3px solid orange;
+	padding-bottom:10px;
+	/* margin-bottom:10px; */
+	width: 100%;
+	margin : 20px 10px auto;
+	border-radius:20px;
+	}	
+.pcadre{font-size:1.2em;
+margin-left:10px;
+margin-right:10px;
+}	
+.tcadre{
+	background-color:#ffdba3;border-radius:20px 20px 0 0 ;
+	margin-bottom:10px;
+}
+.mar{margin-left:10px;
+margin-right:10px;}
+.mar2{justify-content:center;} 
+.mar3{margin-right:5px;} 
+
+section .conteneur h1,h2 {
+	color:tomato;
+}
+.green{color:green;}
+.padtopbot{
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+h3 a {
+	color:orange;
+}
+
+body{
+	font-size : 13px;
+}
+
+ul{list-style:none;}
+
+header {
+
+	background-image:url("../image/image_de_fond3.jpg");
+	/* background-repeat:no-repeat; */
+	/* background-size:cover; */
+	/* background-image: linear-radient(orange, yellow,yellow); */
+	font-family:Helvetica, Arial,Sans-Serif;
+}
+section { 
+	border-top : 1px solid #c0c0c0;
+	background-image:radial-gradient(white,white, white,#d2e0f7);
+	padding-top:20px;
+	padding-bottom:20px;
+	font-family:Helvetica, Arial,Sans-Serif;
+
+}
+h1,h2,h3{font-family: 'Indie Flower', cursive;}
+footer {
+	/* margin-top : 20px; */
+	border-top : 1px solid #c0c0c0;
+	text-align : center;
+	background-image:url("../image/image_de_fond3.jpg");
+	min-height:150px;
+	font-family:Helvetica, Arial,Sans-Serif;
+}
+footer a{
+		
+}
+footer a:hover{
+	text-decoration : underline;
+	
+}
+footer p{
+	margin: 8px 0 0 0;
+}
+
+.italic {
+	font-style: italic;
+}
+ 
+.conteneur{
+	
+	margin : auto;
+	width : 80%;
+	/*background-color : red;*/
+	text-align:center;
+	font-size:1.2em;
+	
+}
+
+
+.conteneur2{
+	margin : 0 auto;
+	
+}
+.wid{width:40%;
+margin:0 auto;
+max-height:380px;
+/* padding-bottom:20px; */
+padding-top:70px;
+}
+.wrap{flex-wrap:wrap;}
+.flex{display:flex;}
+.sidebar{width:25%;
+font-size:1.2em;
+text-align:center;
+padding:10px;}
+/*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*/
+.hgauche{
+	float :left;
+	width : 75%;
+	/* height : 60px; */
+	/*background: gray;*/
+	
+}
+.hgauche h1{
+	text-align : center;
+	margin : 10px 0 0 55 px;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px;/*ombre sur le text*/
+	color:brown;
+	min-height:60px;
+	/* height:100%; */
+	}
+.hgauche h2{
+	margin : 5px 0 0;
+	font-size : 15px;
+	letter-spacing: 3px; /* Espace entre les caractères*/
+		
+	}
+	.hgauche h2	span {
+		color : red;
+	}
+/*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*//*HAUT GAUCHE*/
+
+/*******HAUT DROITE********//*******HAUT DROITE********//*******HAUT DROITE********//*******HAUT DROITE********//*******HAUT DROITE********/
+.hdroite{
+	float :left;
+	width :25%;
+	height : 100%;
+	height:100px;
+	/*background: purple;*/
+	
+	
+}
+.hdroite a{
+	color : brown;
+	display : block; /* tranforme les éléments inline  en block*/
+	text-align : center;
+	font-size:1.2em;
+	margin: 30px auto;
+	/* line-height:5em; */
+/* vertical-align:middle;	 */
+	
+}
+.hdroite a:first-child{
+	margin : 10 px 0 0 0; /*On cible le premier lien dans la div pour ajouter de la marge au dessus top*/
+}
+.hdroite a:hover{
+	text-decoration : underline;
+	/*au survol de la souris, on souligne le texte*/
+}
+/*******HAUT DROITE********//*******HAUT DROITE********//*******HAUT DROITE********//*******HAUT DROITE********//*******HAUT DROITE********/
+
+.clear{
+	clear : both;
+}
+
+.nav{
+	width:100%;
+	margin : 0 auto;
+	/* background-color:blue; */
+	/* float :left;	 */
+}
+nav a{
+	font-size:1.5em;
+	color:#000000;
+	float: left ;
+	padding : 10px 35px;
+	}
+	/* nav a:hover{ */
+		/* color: #ffffff; */
+		/* background: #8daab7; */
+		/* border-radius:10px; */
+		/* } */
+
+.pad{padding:10px;}
+
+/* CONTACT */ /* CONTACT */ /* CONTACT */ /* CONTACT */ 
+#sectionContact{
+	min-height : 600px;
+	
+}
+/* CONTACT */ /* CONTACT */ /* CONTACT */ /* CONTACT */ 
+
+/* PROJETS */ /* PROJETS */ /* PROJETS */ /* PROJETS */ /* PROJETS */ 
+
+
+/* PROJETS */ /* PROJETS */ /* PROJETS */ /* PROJETS */ /* PROJETS */ 
+@media screen and (max-width: 700px){
+	.conteneur{
+		width:100%;
+		font-size:1em;
+	}
+	.hgauche{width:100%;}
+	.hdroite{width:100%;text-align:center;}
+	.hdroite a{text-align:center;}
+	.sidebar{width:100%;}
+	.wid{width:100%;
+	/* padding-bottom:100px; */
+	padding-top:0px;
+	/* margin-bottom:0px; */
+	}
+	.conteneur2{
+		flex-wrap:wrap;
+	}
+	.cadre{width:90%;}
+	/* .cadre2{width:90%;} */
+	 .cadre2{width:90%;}
+	.projet{flex-wrap:wrap;}
+	.hdroite{height:30px;}
+	.hdroite a{margin:auto;}
+}	
+	
